@@ -6,6 +6,9 @@
   "source": "./src/index.ts",
   "module": "./dist/index.js",
   "typings": "./dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "build": "yarn clean && tsc --declaration",
     "clean": "rimraf dist/*"
